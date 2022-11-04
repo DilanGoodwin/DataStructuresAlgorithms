@@ -1,0 +1,5 @@
+# Bubble Sort
+
+This sorting algorithm works by going through the list comparing the current element with the one next to it. If the next number is greater than the current number the program swaps the position of the 2 different numbers. If this is not the case though the numbers do not swap. It then moves onto the next number within the data structure, repeating the checking step and swapping the numbers if necessary. If any numbers were swapped then the algorithm will repeat. If no swaps are made in the end then the program comes to and end.
+
+Within this folder system there are two files, one is the class in which the Bubble sort method is defined and the other is a small program that demonstrates what you can do with the class. The only reason that I have broken these into separate files is for when I start adding them to more advanced data structures (like doubly linked lists) and have to edit them a bit so it will work. 

@@ -1,6 +1,10 @@
 
 import lib.BubbleSort;
 
+/**
+ * DemoApp
+ * Program shows an unorganised list and then a list that has been organised by the bubble sort algorithm.
+ */
 public class DemoApp {
     public static void main(String[] args) throws Exception {
         System.out.println("Unsorted Array");
