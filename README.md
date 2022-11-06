@@ -12,6 +12,9 @@ This algorithm can be adapted to work in conjunction with different data structu
 ### Demonstration of Algorithm
 Below is a demonstration of how the bubble sort algorithm works when writing it down.
 
+<details>
+  <summary>Written Example</summary>
+
 ```
 Array Values
 22,70,40,40,64,60,60,80,55,20
@@ -125,6 +128,8 @@ Final Result
 20, 22, 40, 40, 55, 60, 60, 64, 70, 80
 ```
 
+</details>
+
 ## Insertion Sort
 This sorting algorithm works by going through the list and comparing the different values, starting with the second element wihtin the array. What it does is compares the element with the one to the left of it, if it is greater then no changes are made. However if it is less than the element to the left of it the value is moved until it reaches the point where the element to the left if no longer greater than it. This process is continued until the end of the array/list is reached.
 
@@ -132,6 +137,9 @@ Within this directory structure there are two main files, one is a class in whic
 
 ### Demonstration of Algorithm
 Below is a demonstration of the Insertion sort algorithm when written out.
+
+<details>
+  <summary>Written Example</summary>
 
 ```
 Array Values
@@ -205,7 +213,60 @@ End List, swap beginning.
 20, 22, 40, 40, 55, 60, 60, 64, 70, 80
 ```
 
+</details>
+
 ## Selection Sort
+This sorting algorithm goes through an array of values repeatedly finding the smallest element within the array of values and moving it to the beginning of the array. This is done by maintaining a constant position wihtin the array and then going through all the other values within the array, comparing them, If when comparing the values the one later on within the array is smaller than the constant then they are swapped. The constant is then changed to the next values within the array repeating the same processes. 
+
+Within the folder system there are two main files, one is a Java class where the selection sorting algorithm is implemented, and the other program is a demo program that shows an unsorted array and then the sorted array that has been through the selection sort algorithm. 
+
+### Demonstration of Algorithm
+Below is a demonstration of how the seelection sort algorithm works when writing it down.
+
+<details>
+  <summary>Written Example</summary>
+
+  ```
+Array Vlues
+22, 70, 40, 40, 64, 60, 60, 80, 55, 20
+
+1st Pass
+22, 70, 40, 40, 64, 60, 60, 80, 55, 20
+20, 70, 40, 40, 64, 60, 60, 80, 55, 22
+
+2nd Pass
+20, 70, 40, 40, 64, 60, 60, 80, 55, 22
+20, 22, 40, 40, 64, 60, 60, 80, 55, 70
+
+3rd Pass
+20, 22, 40, 40, 64, 60, 60, 80, 55, 70
+
+4th Pass
+20, 22, 40, 40, 64, 60, 60, 80, 55, 70
+
+5th Pass
+20, 22, 40, 40, 64, 60, 60, 80, 55, 70
+20, 22, 40, 40, 60, 64, 60, 80, 55, 70
+20, 22, 40, 40, 55, 64, 60, 80, 60, 70
+
+6th Pass
+20, 22, 40, 40, 55, 64, 60, 80, 60, 70
+20, 22, 40, 40, 55, 60, 64, 80, 60, 70
+
+7th Pass
+20, 22, 40, 40, 55, 60, 64, 80, 60, 70
+20, 22, 40, 40, 55, 60, 60, 80, 64, 70
+
+8th Pass
+20, 22, 40, 40, 55, 60, 60, 80, 64, 70
+20, 22, 40, 40, 55, 60, 60, 64, 80, 70
+
+9th Pass
+20, 22, 40, 40, 55, 60, 60, 64, 80, 70
+20, 22, 40, 40, 55, 60, 60, 64, 70, 80
+```
+
+</details>
 
 # Data Structures
 

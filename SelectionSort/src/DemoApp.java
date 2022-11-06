@@ -1,6 +1,10 @@
 
 import lib.SelectionSort;
 
+/**
+ * DemoApp
+ * Program shows an unorganised list and then a list that has been organised by the selection sort algorithm
+ */
 public class DemoApp {
     public static void main(String[] args) throws Exception {
         System.out.println("Unsorted Array");
