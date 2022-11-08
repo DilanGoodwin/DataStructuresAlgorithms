@@ -268,5 +268,7 @@ Array Vlues
 
 </details>
 
-# Data Structures
+## Quicksort
+This sorting algorithm works by splitting the array down the middle and then organising it with all the values that are less than the middle value placed on the left and all the ones higher on the right. It uses a recursive sorting method to call the methods multiple times to organise the array values. Method will call itself until the start value is less than the end value. 
 
+This algorithm can be adapted to work with different data structures but is not the easiest to do depending on the data structure. Demonstration of implementing this sorting algorithm into a data structure will be done when start implementing data structures.
