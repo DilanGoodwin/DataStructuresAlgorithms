@@ -1,18 +1,3 @@
-## Getting Started
+This sorting algorithm works by splitting the array down the middle and then organising it with all the values that are less than the middle value placed on the left and all the ones higher on the right. It uses a recursive sorting method to call the methods multiple times to organise the array values. Method will call itself until the start value is less than the end value. 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This algorithm can be adapted to work with different data structures but is not the easiest to do depending on the data structure. Demonstration of implementing this sorting algorithm into a data structure will be done when start implementing data structures.
