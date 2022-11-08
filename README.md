@@ -272,3 +272,9 @@ Array Vlues
 This sorting algorithm works by splitting the array down the middle and then organising it with all the values that are less than the middle value placed on the left and all the ones higher on the right. It uses a recursive sorting method to call the methods multiple times to organise the array values. Method will call itself until the start value is less than the end value. 
 
 This algorithm can be adapted to work with different data structures but is not the easiest to do depending on the data structure. Demonstration of implementing this sorting algorithm into a data structure will be done when start implementing data structures.
+
+# Extras
+These are programs that do not really fit in as a data structure or sorting algorithm but are good examples of some of the concepts that are used within the programs.
+
+## Greatest Common Denominator 
+This is a fairly simple program that finds the largest denominator of two values that are passed to it. The reason this program is included is because it is recursive (meaning it calls itself) and is a rather easy version of the concept to follow on a piece of paper. I would highly recommend understanding the code within the program as it will help to understand some of the more advanced pieces of code that are used wihtin the sorting algorithms.
