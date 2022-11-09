@@ -1,0 +1,6 @@
+# Shell Sort
+This sorting algorithm works by calculating an interval that it should travel through the array by, this is calculated using the algorithm `h=(h*3)+1`. Once the interval has been calculated it travels through the array comparing the values at those intervals to each other an swapping their positions depending on whether they are greater or less than each other. \
+This process results in the smaller values being closer to the beginning of the list and the larger values nearer the end. Each time the values at a given interval position have been sorted the reverse for the interval algorithm occur (`h=(h-1)/3`) and the program is run again but with the new interval definition. This will continue until the interval counter equals 1, by which time the majority of the list will have been sorted.
+
+This algorithm works best with large data structures and is an expansion to the insertion sort. The larger the data set the better this algorithm operates which is why the array for this specific demonstration was made larger. \
+Once again this algorithm will be properly implemented when creating data structures.
